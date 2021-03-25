@@ -1,0 +1,87 @@
+/* Body */
+
+body{
+    background-image: url(../Recursos/galaxia.jpg);
+}
+
+/* nav color */
+
+#nav-color{
+    background-image: url(../Recursos/galaxia.jpg);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+
+}
+
+/*  Container */
+
+.container-fluid{
+    position: relative;
+}
+
+.container{
+    position: relative;
+}
+#container{
+    position: absolute;
+    margin-top: 10%;
+    margin-right: auto;
+}
+
+
+/* card */
+
+#card-top{
+    margin-top: 20px;
+    background-image: url(../Recursos/galaxia.jpg);
+}
+/* .card{
+    width: 75%;
+} */
+
+.card-body{
+    text-align: center;
+    background-color: white;
+    border-radius: 19px;
+}
+
+/*  Menú hamburguesa */
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(../Recursos/menu.svg);
+}
+
+/* Boton next*/
+
+#botonNext{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    margin-top: -30px;
+}
+
+/* #paginationfooter{
+   margin-top: 7%;
+} */
+
+/* Responsive */
+
+@media (max-width: 812px) {
+
+    #container{
+        margin-top: 26%;
+        margin-right: auto;
+    }
+
+    #botonNext{
+        position: inherit;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        margin: auto; 
+    }
+
+}
